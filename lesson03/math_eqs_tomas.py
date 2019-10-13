@@ -11,12 +11,12 @@ from math import pi
 # pass - nothing happens -- passes that function
 
 def area_of_circle():
-	# TODO
-	# ask the user to input the radius
-	# calculate the area of a circle
-	# print out the area using str.format
+
+	radius = input("what is the radius of your circle")
+	area = radius*radius*pi
+	print("the area of your circle is", area)
 	pass
-	
+
 def main():
 	area_of_circle()
 
