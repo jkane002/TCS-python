@@ -1,3 +1,7 @@
+# Things to think about:
+# How can I make this game better?
+# What other features can I implement?
+
 from random import randint
 from os import name, system
 
