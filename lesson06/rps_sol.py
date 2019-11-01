@@ -88,7 +88,7 @@ while player and user < MAX_PTS and comp < MAX_PTS:
         print("That's not a valid play. Check your spelling!")
 
     player = True
-    computer = t[randint(0,2)]
+    computer = t[randint(0,2)] # Need this again to randomize the array
 
 if user == MAX_PTS and comp == MAX_PTS:
     print("Fair game!")
