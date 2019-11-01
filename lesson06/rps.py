@@ -15,7 +15,7 @@ user = 0
 TIE_PT = 0 # Points for a tie
 WIN_PT = 0 # Points for a win
 LOSS_PT = 0 # Points for a loss
-MAX_PTS = 0 # Max points for a match
+MAX_PTS = 0 # Max total points for a match
 
 #assign a random play to the computer
 computer = t[randint(0,2)]

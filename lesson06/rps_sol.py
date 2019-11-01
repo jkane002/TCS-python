@@ -30,7 +30,7 @@ def reveal_score():
 
 # beginning message
 print("{:^50}".format("Rock-Paper-Scissors!"))
-print("{} points to win the game!\n{} points for each win \n{} point for a tie \n{} points for each loss\n".format(MAX_PTS, WIN_PT, TIE_PT, LOSS_PT))
+print("{} total points to win the match!\n{} points for each win \n{} point for a tie \n{} points for each loss\n".format(MAX_PTS, WIN_PT, TIE_PT, LOSS_PT))
 
 player = True
 while player and user < MAX_PTS and comp < MAX_PTS:
