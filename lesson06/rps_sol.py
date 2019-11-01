@@ -1,6 +1,19 @@
 from random import randint
 from os import name, system
 
+#create a list of play options
+t = ["rock", "paper", "scissors"]
+comp = 0
+user = 0
+
+TIE_PT = 1 # Points for a tie
+WIN_PT = 2 # Points for a win
+LOSS_PT = 0 # Points for a loss
+MAX_PTS = 15 # Max points for a game
+
+#assign a random play to the computer
+computer = t[randint(0,2)]
+
 # clears screen
 def clear():
     # for windows
@@ -14,19 +27,6 @@ def clear():
 def reveal_score():
     print("you:", user)
     print("comp:", comp)
-
-#create a list of play options
-t = ["rock", "paper", "scissors"]
-comp = 0
-user = 0
-
-TIE_PT = 1 # Points for a tie
-WIN_PT = 2 # Points for a win
-LOSS_PT = 0 # Points for a loss
-MAX_PTS = 15 # Max points for a game
-
-#assign a random play to the computer
-computer = t[randint(0,2)]
 
 # beginning message
 print("{:^50}".format("Rock-Paper-Scissors!"))
@@ -90,7 +90,7 @@ while player and user < MAX_PTS and comp < MAX_PTS:
     player = True
     computer = t[randint(0,2)]
 
-if user >= MAX_PTS and comp >= MAX_PTS:
+if user == MAX_PTS and comp == MAX_PTS:
     print("Fair game!")
 elif user >= MAX_PTS:
     print("Congrats you win!")
