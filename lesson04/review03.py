@@ -4,10 +4,17 @@ OR - what must be true for the statement to be true?
 """
 
 def and_operator(x):
+    if x<5 and x<10:
+        print("True")
+    else:
+        print("False")
+
+
     # check if x is less than 5 and less than 10
     # print True if it is, print False otherwise
 
 def or_operator(x):
+    pass
     # check if x is less than 4 or less than 5
     # print True if it is, print False otherwise
 

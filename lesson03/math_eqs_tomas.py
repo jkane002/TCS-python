@@ -12,12 +12,17 @@ from math import pi
 
 def area_of_circle():
 
-	radius = input("what is the radius of your circle")
+	radius = eval(input("what is the radius of your circle:"))
 	area = radius*radius*pi
-	print("the area of your circle is", area)
-	pass
+	print("The area of the circle is {:.3f}".format(area))
+	# pass
+
+def add_and_mod():
+	[0] -> [1] -> [2] -> [3] -> [4] indices
+
 
 def main():
-	area_of_circle()
+	# area_of_circle()
+	add_and_mod()
 
 main()
