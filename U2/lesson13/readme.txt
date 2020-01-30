@@ -12,6 +12,7 @@ class ClassName:
 3. Change modifications
     Why do we need to change modifications?
     To change the access permissions of file system object
+    must need #!/usr/bin/python
     chmod 777
     owner, group, others
     7 means to read, write, and execute
