@@ -5,7 +5,7 @@ from random import *
 class hangman:
 
 	def __init__(self):
-		self.answer = "jonathan" # SET THE HANGMAN WORD HERE
+		self.answer = "secret" # SET THE HANGMAN WORD HERE
 		self.wrong_guesses = 0 # number of wrong guesses made by the player
 		self.answer_letters = {i for i in self.answer} # set of letters in the answer -> {'s','e','c','r','t'}
 		self.correct_letters = set() # guessed leters in the word
@@ -111,7 +111,6 @@ class hangman:
 	def record_guess(self, guess):
 		if guess in self.answer:
 			self.correct_letters.add(guess) # add letter to set of correct letters guessed
-			# self.print_hangman()
 		else:
 			self.incorrect_letters.add(guess) # add letter to set of incorrect letters guessed
 			self.wrong_guesses += 1 # increment number of wrong guesses
