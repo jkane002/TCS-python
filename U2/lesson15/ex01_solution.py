@@ -1,5 +1,5 @@
 class Vehicle:
-    def __init__(self, price, color):
+    def __init__(self, price, color, gas):
         self.color = color
         self.price = price
         self.gas = 0
