@@ -4,7 +4,6 @@ A tic-tac-toe game to be played with two players!
 
 '''
 
-import random
 import os
 
 def clearscreen():
