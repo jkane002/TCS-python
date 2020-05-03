@@ -1,0 +1,5 @@
+1. In your own words, what is recursion?
+2. What are the main components of a recursive function?
+3. Can a for loop be turned into a recursive function?
+4. Can a recursive fucntion be turned into a for loop?
+5. Possible real life applications of recursion?
