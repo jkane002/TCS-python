@@ -83,10 +83,7 @@ def twoShot():
     play()
 
 def threeShot():
-    '''
-    using random.randint ranging from 1 to 10
-    use the probability to make a 3 ptr
-    '''
+    if random.randint(1,10) > 8:
         print("\t3 points!!!")
         updateScore(3)
         swapPossession()
